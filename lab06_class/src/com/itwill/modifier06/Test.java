@@ -14,7 +14,7 @@ public class Test {
 	}
 
 	// static 메서드
-	public static void printFields2() {
+	public static void printFields2() { // 수식어 순서는 상관없음 (static public 이런 식으로도 가능) (단 리턴 타입 바로 뒤에는 메서드 이름과 소괄호()를 적음)
 		System.out.println("--- 정적(static) 메서드 ---");
 //		System.out.println("x = " + x); static 메서드는 static이 아닌 멤버를 사용할 수 없음! 에러 뜸.
 		System.out.println("y = " + y);

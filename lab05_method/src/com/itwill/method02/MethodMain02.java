@@ -75,6 +75,5 @@ public class MethodMain02 {
   	 public static double divide(double x, double y) {
   		return x / y;
   	 }
-  		
-
+  	 
 } // end class

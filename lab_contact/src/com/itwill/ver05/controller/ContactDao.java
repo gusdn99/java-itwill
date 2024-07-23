@@ -59,5 +59,4 @@ public interface ContactDao {
      */
     List<Contact> search(String keyword);
     
-
 }

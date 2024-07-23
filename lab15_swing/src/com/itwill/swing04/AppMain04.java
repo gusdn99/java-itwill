@@ -211,6 +211,5 @@ public class AppMain04 {
 		String msg = String.format("%f %s %f = %f", x, operator, y, result);
 		textResult.setText(msg);
 	}
-
-
+	
 }

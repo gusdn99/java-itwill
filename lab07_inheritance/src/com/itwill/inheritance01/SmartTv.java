@@ -18,6 +18,5 @@ public class SmartTv extends BasicTv { // 하위클래스가 확장한다 상위
 //		System.out.println(channel); 채널 필드는 private이라 접근 불가
 		System.out.println(getChannel()); // 요건 public이라 가능. private 필드에 접근하는 방법임.
 		
-		
 	}
 }

@@ -43,10 +43,7 @@ public class SetMain02 {
 //			System.out.print(x + " ");
 //		}
 //		System.out.println();
-
 		
-			
-
 	}
-
+    
 }

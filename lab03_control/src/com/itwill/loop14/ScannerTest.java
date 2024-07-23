@@ -38,15 +38,14 @@ public class ScannerTest {
 		System.out.println("msg: " + msg);
 		
 		// nextLine()으로 읽은 값을 정수로 변환 -> Integer.parseInt(...) 대문자로 시작
-		// nextLine()으로 읽은 값을 실수로 변환 -> Double.parseDouble(...)
 		System.out.print("정수 입력>> ");
 		x = Integer.parseInt(scanner.nextLine());
 		System.out.println("x = " + x);
 		
+		// nextLine()으로 읽은 값을 실수로 변환 -> Double.parseDouble(...)
 		System.out.print("실수 입력>> ");
 		double y = Double.parseDouble(scanner.nextLine()); // 대소문자 구분하기
 		System.out.println("y = " + y);
-		
 		
 	}
 

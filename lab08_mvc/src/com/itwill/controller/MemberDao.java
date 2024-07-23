@@ -37,6 +37,4 @@ public interface MemberDao { // 인터페이스
 	 */
 	int update(int index, String password);
 	
-	
-	
 }

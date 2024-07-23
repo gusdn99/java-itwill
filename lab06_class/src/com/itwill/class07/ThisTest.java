@@ -20,13 +20,18 @@ public class ThisTest {
 		// this.x = x;
 		this(x, 0, 0); // -> this: ThisTest 클래스의 다른 생성자 호출
 		//(주의) this(...) 생성자를 호출하는 코드는 다른 실행문들보다 먼저 실행되어야 됨.
+		
+//		this.x = x;
+//		this(x, 0, 0);
+//		위의 2개 순서대로 하면 안됨!
 	}
 	
 	public ThisTest(int x, int y) {
 //		this(x, y, 0);
-		this(); // 현재 클래스의 다른 생성자를 호출하는 문장. // 밑의 문장들이 이 문장보다 위에 있으면 안됨.
+		this(); // 현재 클래스의 다른 생성자를 호출하는 문장. 밑의 문장들이 이 문장보다 위에 있으면 안됨.
 		this.x = x;
 		this.y = y;
+		
 	}
 	
 	public void info() {

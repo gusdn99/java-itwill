@@ -23,9 +23,7 @@ public class ClassMain04 {
 		
 		rec2 = new Rectangle(4, 3);
 		System.out.println("rec2 = " + rec2);
-				
-
+		
 	}
-
-
+	
 }

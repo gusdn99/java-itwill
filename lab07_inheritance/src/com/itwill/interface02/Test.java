@@ -51,11 +51,4 @@ public interface Test {
 		System.out.println("비공개 구현된 메서드");
 	}
 	
-	
-	
-	
-	
-	
-	
-
 }

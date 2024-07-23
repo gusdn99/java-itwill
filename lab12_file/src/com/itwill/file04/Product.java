@@ -44,6 +44,4 @@ public class Product implements Serializable { // Serializable 인터페이스 �
 		return "Product [code=" + code + ", name=" + name + ", price=" + price + "]";
 	}
 	
-	
-
 }

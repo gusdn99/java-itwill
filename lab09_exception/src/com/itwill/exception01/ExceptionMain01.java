@@ -31,7 +31,6 @@ public class ExceptionMain01 {
 			System.out.println("0으로는 나눌 수 없습니다.");
 		}
 		
-
 	}
 
 }

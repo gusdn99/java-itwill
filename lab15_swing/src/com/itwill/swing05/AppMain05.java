@@ -126,7 +126,6 @@ public class AppMain05 {
 		textName.setText("");
 		textPhone.setText("");
 		textEmail.setText("");
-		
-		
+			
 	}
 }

@@ -7,7 +7,6 @@ public class ListMain03 {
 
 	public static void main(String[] args) {
 		
-		
 		// 1. 정수를 저장할 수 있는 ArrayList를 선언(numbers), 객체 생성.
 		ArrayList<Integer> numbers = new ArrayList<>();
 		
@@ -46,7 +45,6 @@ public class ListMain03 {
 		// 9. evenSquares 출력.
 		System.out.println(evenSquares);
 		
-		
 	}
-
+	
 }

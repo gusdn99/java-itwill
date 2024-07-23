@@ -2,10 +2,10 @@ package com.itwill.modifier01;
 
 public class AccessExample {
 	// field
-	private int a;
-	int b;
-	protected int c;
-	public int d;
+	private int a; // private
+	int b; // package
+	protected int c; // protected
+	public int d; // public
 	
 	// constructor
 	public AccessExample(int a, int b, int c, int d) {

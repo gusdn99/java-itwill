@@ -118,7 +118,7 @@ public class BlogMain implements CreateNotify, UpdateNotify {
 		buttonPanel.add(btnCreate);
 
 		btnDetails = new JButton("상세보기");
-        btnDetails.addActionListener((e) -> showDetailsFrame());
+		btnDetails.addActionListener((e) -> showDetailsFrame());
 		btnDetails.setFont(new Font("D2Coding", Font.PLAIN, 18));
 		buttonPanel.add(btnDetails);
 
@@ -138,21 +138,17 @@ public class BlogMain implements CreateNotify, UpdateNotify {
 	}
 
 	private void showDetailsFrame() {
-        int index = table.getSelectedRow(); // 테이블에서 선택된 행의 인덱스
-        if (index == -1) { // JTable에서 선택된 행이 없을 때
-            JOptionPane.showMessageDialog(
-                    frame, 
-                    "상세보기할 행을 먼저 선택하세요.", 
-                    "경고", 
-                    JOptionPane.WARNING_MESSAGE);
-            return;
-        }
-        Integer id = (Integer) tableModel.getValueAt(index, 0);
-        
-        BlogDetailsFrame.showBlogDetailsFrame(frame, id, BlogMain.this);
-        
-    }
-	
+		int index = table.getSelectedRow(); // 테이블에서 선택된 행의 인덱스
+		if (index == -1) { // JTable에서 선택된 행이 없을 때
+			JOptionPane.showMessageDialog(frame, "상세보기할 행을 먼저 선택하세요.", "경고", JOptionPane.WARNING_MESSAGE);
+			return;
+		}
+		Integer id = (Integer) tableModel.getValueAt(index, 0);
+
+		BlogDetailsFrame.showBlogDetailsFrame(frame, id, BlogMain.this);
+
+	}
+
 	private void search() {
 		int type = comboBox.getSelectedIndex(); // 콤보박스에서 선택된 아이템의 인덱스
 		String keyword = textSearchKeyword.getText(); // 검색어
@@ -168,7 +164,6 @@ public class BlogMain implements CreateNotify, UpdateNotify {
 		resetTable(blogs); // 테이블 리셋.
 	}
 
-	
 	private void initializeTable() {
 		// DAO를 사용해서 DB 테이블에서 검색.
 		List<Blog> blogs = dao.read();
@@ -209,7 +204,7 @@ public class BlogMain implements CreateNotify, UpdateNotify {
 			}
 		}
 	}
-	
+
 	@Override
 	public void notifyCreateSuccess() {
 		// 테이블에 insert 성공했을 때 BlogCreateFrame에서 호출하는 메서드.
@@ -217,12 +212,12 @@ public class BlogMain implements CreateNotify, UpdateNotify {
 		JOptionPane.showMessageDialog(frame, "새 블로그 등록 성공");
 
 	}
-	
-	 @Override
-	    public void notifyUpdateSuccess() {
-	        // 테이블에 update 성공했을 때 BlogDetailsFrame이 호출하는 메서드.
-	        initializeTable();
-	        JOptionPane.showMessageDialog(frame, "블로그 업데이트 성공!");
-	    }
+
+	@Override
+	public void notifyUpdateSuccess() {
+		// 테이블에 update 성공했을 때 BlogDetailsFrame이 호출하는 메서드.
+		initializeTable();
+		JOptionPane.showMessageDialog(frame, "블로그 업데이트 성공!");
+	}
 
 }

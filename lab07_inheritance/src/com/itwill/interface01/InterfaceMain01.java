@@ -40,8 +40,6 @@ public class InterfaceMain01 {
 		System.out.println("insert result = " + result);
 		System.out.println("select result = " + db.select());
 		
-
-		
 	}
-
+	
 }

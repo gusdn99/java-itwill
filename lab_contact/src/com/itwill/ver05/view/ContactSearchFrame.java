@@ -132,7 +132,6 @@ public class ContactSearchFrame extends JFrame {
 		
 		table.setModel(model); // 테이블에 테이블 모델을 다시 세팅
 		
-				
 	}
-
+	
 }

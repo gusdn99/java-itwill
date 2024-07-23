@@ -9,8 +9,8 @@ public class Rsp {
         // 가위/바위/보 (Rock-Scissors-Paper) 게임:
         // 가위 - 0, 바위 - 1, 보 - 2
         
-        // TODO: Random 타입 변수를 선언, 초기화.
-        // TODO: Scanner 타입 변수를 선언, 초기화.
+        // Random 타입 변수를 선언, 초기화.
+        // Scanner 타입 변수를 선언, 초기화.
 
         System.out.println("가위바위보 게임");
         System.out.println("---------------");
@@ -20,9 +20,9 @@ public class Rsp {
         System.out.println("---------------");
         System.out.print("선택>>> ");
         
-        // TODO: 사용자가 콘솔창에서 입력한 정수를 변수(user)에 저장. int user = ;
-        // TODO: 0 이상 3 미만의 정수 난수 1개를 변수(computer)에 저장. int com
-        // TODO: 가위바위보 게임 결과(User win/Computer win/Tie)를 출력.
+        // 사용자가 콘솔창에서 입력한 정수를 변수(user)에 저장. int user = ;
+        // 0 이상 3 미만의 정수 난수 1개를 변수(computer)에 저장. int com
+        // 가위바위보 게임 결과(User win/Computer win/Tie)를 출력.
         
         Random r = new Random();
     	int com = r.nextInt(3);

@@ -86,7 +86,6 @@ public class LambdaMain02 {
 		List<Object> capital = app.map(languages, (x) -> ((String) x).toUpperCase());
 		System.out.println(capital);
 		
-
 	}
 
 }

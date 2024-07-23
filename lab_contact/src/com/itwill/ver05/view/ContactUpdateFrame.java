@@ -16,7 +16,6 @@ import java.awt.Component;
 import javax.swing.JButton;
 import java.awt.Font;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 public class ContactUpdateFrame extends JFrame {
@@ -173,11 +172,9 @@ public class ContactUpdateFrame extends JFrame {
 			app.notifyContactUpdated();
 			dispose(); // 현재 창 닫기
 		} else { // 연락처 수정 실패
-			// TODO 업데이트 실패 메시지 보여주기
-//			JOptionPane
-//		}
+			// 업데이트 실패 메시지 보여주기
 		}
-
+		
 	}
-
+	
 }

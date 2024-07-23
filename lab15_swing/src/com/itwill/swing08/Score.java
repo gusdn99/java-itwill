@@ -50,7 +50,4 @@ public class Score {
 		return "Score [korean=" + korean + ", english=" + english + ", math=" + math + "]";
 	}
 	
-	
-	
-
 }

@@ -17,6 +17,8 @@ public class BusinessPerson extends Person {
 	 * 상위클래스의 아규먼트를 갖는 생성자는 자동으로 호출되지 않음.
 	 * 상위클래스의 아규먼트를 갖는 생성자를 호출하려면 반드시 super(...);를 호출해야만 함.
 	 * 생성자 코드 안에서 super(...) 호출은 가장 먼저 작성되어야 함.
+	 * => System.out.println("BusinessPerson() 생성자");
+	 * => super(); 이런 순서로는 안됨!
 	 * 
 	 * this의 의미:
 	 * (1) 생성된 객체(인스턴스)의 참조값: this.field, this.method(...)
@@ -42,7 +44,7 @@ public class BusinessPerson extends Person {
 	}
 	
 	public BusinessPerson(String name, String company) {
-		// super(); 상위 클래스의 기본 생성자 호출 //
+		// super(); 상위 클래스의 기본 생성자 호출
 		// super. 상위 클래스의 인스턴스(객체)
 		super(name); // 상위클래스의 아규먼트가 1개인 생성자를 명시적으로 호출. (생략 불가)
 		this.company = company;

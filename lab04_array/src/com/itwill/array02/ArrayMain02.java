@@ -43,8 +43,7 @@ public class ArrayMain02 {
 			System.out.print(s + " ");
 		}
 		System.out.println();
-
 		
 	}
-
+	
 }

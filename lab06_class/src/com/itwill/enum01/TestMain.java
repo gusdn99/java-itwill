@@ -41,8 +41,7 @@ public class TestMain {
 		Season3 season3 = Season3.SPRING;
 		System.out.println(season3); // SPRING
 		System.out.println(season3.getName()); // 봄
-		
-		
+			
 	}
-
+	
 }

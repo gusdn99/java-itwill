@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import oracle.jdbc.OracleDriver;
 
 import static com.itwill.jdbc.OracleJdbc.*;
-import static com.itwill.jdbc.model.Blog.Entity.*;
 
 public class JdbcMain04 {
 

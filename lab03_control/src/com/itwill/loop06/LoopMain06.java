@@ -14,8 +14,6 @@ public class LoopMain06 {
 			System.out.println("----------------------------");
 		}
 		
-		
-
 	}
 
 }

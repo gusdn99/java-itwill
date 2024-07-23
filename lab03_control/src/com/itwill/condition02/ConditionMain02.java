@@ -26,10 +26,7 @@ public class ConditionMain02 {
 		} else {
 			System.out.println("negative");
 		}
-		
-	
-		
-		
+			
 	}
 
 }

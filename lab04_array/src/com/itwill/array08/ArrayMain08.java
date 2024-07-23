@@ -38,8 +38,7 @@ public class ArrayMain08 {
 			}
 			System.out.println();
 		}
-		
-		
+			
 	}
 
 }

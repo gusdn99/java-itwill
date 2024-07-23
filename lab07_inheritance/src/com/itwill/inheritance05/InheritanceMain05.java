@@ -35,8 +35,8 @@ public class InheritanceMain05 {
 		System.out.println(t); // 파라미터가 Object 타입
 
 		// System.out.println(Object x) 메서드는 객체의 문자열 표현식을 콘솔에 출력.
-			// 아규먼트가 null이 아닌 경우에는 x.toString()이 리턴하는 문자열을 콘솔에 출력.
-			// 아규먼트가 null인 경우에는 콘솔에 "null"이라고 출력
+		// 아규먼트가 null이 아닌 경우에는 x.toString()이 리턴하는 문자열을 콘솔에 출력.
+		// 아규먼트가 null인 경우에는 콘솔에 "null"이라고 출력
 		System.out.println(t.toString()); // 파라미터가 String 타입. Object 클래스로부터 상속받음.
 		System.out.println(t.getClass()); // 파라미터가 Object 타입
 		System.out.println(t.hashCode()); // 파라미터가 int 타입

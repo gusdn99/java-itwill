@@ -64,7 +64,7 @@ public class AppMain03 {
 		btnPrev.addActionListener(new ActionListener() { // 익명 (내부) 클래스
 			@Override // 이전 버튼이 클릭됐을 때 할 일
 			public void actionPerformed(ActionEvent e) {
-				// TODO 이전 이미지 보여주기
+				// 이전 이미지 보여주기
 				showPrevImage();
 //				for (int i = IMAGES.length - 1; i >= 0; i--) {
 //					if (curIndex > 0) {

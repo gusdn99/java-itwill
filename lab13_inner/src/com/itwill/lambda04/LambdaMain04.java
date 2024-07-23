@@ -1,6 +1,5 @@
 package com.itwill.lambda04;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,7 +14,8 @@ public class LambdaMain04 {
 				new Employee(104, "정윤정", "개발2팀", "부장", 1_000),
 				new Employee(105, "김동환", "인사팀", "회장", 30_000),
 				new Employee(106, "노형진", "인사팀", "차장", 900),
-				new Employee(107, "오쌤", "총무", "대리", 300));
+				new Employee(107, "오쌤", "총무", "대리", 300)
+		);
 		
 		// Ex1. 모든 직원들의 정보를 한 줄에 한 명씩 출력
 		System.out.println("--- Ex1. ---");

@@ -96,8 +96,7 @@ public class LambdaMain03 {
 		 */
 		languages.forEach((x) -> System.out.println(x)); // 한 줄에 languages의 원소 1개씩 // 구현부 - System.out.println();
 		languages.forEach(System.out::println);
-		
-		
+			
 	}
 
 }

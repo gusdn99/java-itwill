@@ -18,5 +18,4 @@ public class Season2 { // enum 타입인 Season3와 비교
 		return this.name;
 	}
 	
-	
 }

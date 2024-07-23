@@ -86,8 +86,7 @@ public class StringEx {
         System.out.println("year = " + year);
         System.out.println("month = " + month);
         System.out.println("day = " + day);
-        	
-		
+        
 	}
-
+	
 }

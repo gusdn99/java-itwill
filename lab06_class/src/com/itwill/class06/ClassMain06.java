@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ClassMain06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
 		int balance = 0;
@@ -86,7 +85,6 @@ public class ClassMain06 {
 //        account1.info();
 //        account2.info();
 		
-		
 	}
-
+	
 }

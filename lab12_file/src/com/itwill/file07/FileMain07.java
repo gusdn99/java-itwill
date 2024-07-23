@@ -92,7 +92,6 @@ public class FileMain07 {
 		
 		br.close(); // 리소스 해제
 		
-
 	}
 
 }

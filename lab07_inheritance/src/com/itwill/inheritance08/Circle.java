@@ -5,7 +5,7 @@ public class Circle extends Shape {
 	private double radius;
 	
 	public Circle (double radius) {
-		super("원");
+		super("원"); // 상위클래스의 아규먼트를 갖는 생성자를 안 만들면 오류 뜸.
 		this.radius = radius;
 	}
 	
@@ -19,5 +19,4 @@ public class Circle extends Shape {
 		return radius * 2 * Math.PI;
 	}
 	
-
 }

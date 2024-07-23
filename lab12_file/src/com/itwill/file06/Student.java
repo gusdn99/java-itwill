@@ -44,9 +44,4 @@ public class Student implements Serializable {
 		return "Student [id=" + id + ", name=" + name + ", score=" + score + "]";
 	}
 	
-	
-	
-	
-	
-
 }

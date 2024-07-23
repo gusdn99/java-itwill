@@ -16,7 +16,7 @@ import java.io.FileOutputStream;
  * 
  * java.io.InputStream: 프로그램이 데이터를 읽어들이는 통로.
  * |__ FileInputStream: 프로그램이 파일에서 데이터를 읽어들이는 통로.
- * 	(1) FileINputStream 객체 생성.
+ * 	(1) FileInputStream 객체 생성.
  *	(2) FIS 객체의 read 관련 메서드를 호출.
  *	(3) FIS 객체를 닫음(close).
  * java.io.OutputStream: 프로그램에서 데이터를 쓰는(출력하는) 통로.

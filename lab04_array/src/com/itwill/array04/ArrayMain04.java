@@ -40,8 +40,7 @@ public class ArrayMain04 {
 			System.out.print(g + " ");
 		}
 		System.out.println();
-	
-	
+		
 	}
 
 }

@@ -15,24 +15,6 @@ public class InheritanceMain06 {
 		System.out.println("비교 연산자 == 결과: " + (p1 == p2)); // 스택의 주소값 비교 // 비교 연산자
 		System.out.println("eqauls() 메서드 결과: " + p1.equals(p2)); // 힙에 생성된 객체의 주소 비교 // equals 메서드
 		
-//		@Override // Object에서 상속받은 equals를 재정의
-//		// p1, p2의 필드값 비교
-//		public boolean equals(Object obj) { // Object obj는 p2 // 다형성
-//			boolean result = false;
-//			
-//			if (obj instanceof Point) {
-		// 만약 (오브젝트 타입의)obj가 Point 클래스 타입의 객체라면. obj는 파라미터
-		// 만약 p2가 Point 클래스 타입의 객체라면. p2는 아규먼트
-//				Point pt = (Point) obj; // 안전한 캐스팅 // pt는 p2
-//
-//				result = (this.x == pt.x) && (this.y == pt.y); // x, y는 int 타입이라서 비교 연산자(==) 사용
-//				// this는 p1
-//				// pt는 p2
-//			}
-//			
-//			return result;
-//		}
-		
 		System.out.println("p1 hashCode = " + p1.hashCode());
 		System.out.println("p2 hashCode = " + p2.hashCode());
 		

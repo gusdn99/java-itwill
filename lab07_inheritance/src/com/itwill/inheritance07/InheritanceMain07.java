@@ -60,7 +60,6 @@ public class InheritanceMain07 {
 		}
 		// 다형성으로 선언되어 있더라도, 오버라이드된 메서드가 호출됨.
 		
-
 	}
 
 }

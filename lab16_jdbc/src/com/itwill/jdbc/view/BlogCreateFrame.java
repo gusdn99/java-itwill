@@ -43,6 +43,7 @@ public class BlogCreateFrame extends JFrame {
 	private JLabel lblWriter;
 	private JButton btnSave;
 	private JButton btnCancel;
+	
 
 	/**
 	 * Launch the application.
@@ -157,17 +158,13 @@ public class BlogCreateFrame extends JFrame {
 		Blog blog = new Blog(0, title, content, writer, null, null);
 		int result = dao.create(blog);
 		if (result == 1) {
-			// TODO: BlogMain 프레임에게 테이블 삽입 성공을 알려줌.
+			// BlogMain 프레임에게 테이블 삽입 성공을 알려줌.
 			app.notifyCreateSuccess();
 			dispose(); // 현재 창 닫기.
 		} else {
 			JOptionPane.showMessageDialog(BlogCreateFrame.this, "INSERT 실패");
 		}
 		
-		
 	}
-	
-	
-	
 	
 }

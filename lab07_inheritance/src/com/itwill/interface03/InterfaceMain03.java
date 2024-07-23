@@ -53,7 +53,6 @@ public class InterfaceMain03 {
 		
 		Scrollable m3 = new Mouse(); // 다형성
 		
-
 	}
 
 }

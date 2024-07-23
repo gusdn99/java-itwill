@@ -3,9 +3,7 @@ package com.itwill.method05;
 public class MethodMain05 {
 
 	public static void main(String[] args) {
-		// TODO 메서드 호출, 그 결과를 출력:
-		
-		
+		// 메서드 호출, 그 결과를 출력:
 		int[] array = {1, 3, 6, 10};
 		
 		// sum 메서드 호출, 결과 출력.
@@ -27,8 +25,7 @@ public class MethodMain05 {
 		int minnumber = min(array);
 		System.out.println("minnumber = " + minnumber);
 		//System.out.println("min = " + min(array));
-		
-		
+			
 	}
 
 	/**
@@ -90,7 +87,6 @@ public class MethodMain05 {
 		}
 		return result;
 	}
-
 	
 	/**
 	 * min.
@@ -117,10 +113,5 @@ public class MethodMain05 {
 		return result;
 		
 	}
-		
-	
-		
-	
-	
-	
+    
 }

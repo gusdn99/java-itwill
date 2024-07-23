@@ -16,7 +16,6 @@ import java.awt.Component;
 import javax.swing.JButton;
 import java.awt.Font;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 
@@ -159,14 +158,12 @@ public class ContactCreateFrame extends JFrame {
 		int result = dao.create(contact);
 		
 		if (result == 1) { // 연락처 저장 성공
-			// TODO ContactMain에게 연락처 저장이 성공됐음을 알려줌.
+			// ContactMain에게 연락처 저장이 성공됐음을 알려줌.
 			app.notifyContactCreated();
 			dispose(); // 현재 창 닫기
 		} else { // 연락처 저장 실패
-			// TODO 사용자에게 저장 실패 메시지 보여주기
-//			JOptionPane
+			// 사용자에게 저장 실패 메시지 보여주기
 		}
 	}
-	
 	
 }

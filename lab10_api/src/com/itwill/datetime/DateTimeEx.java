@@ -31,7 +31,7 @@ public class DateTimeEx {
 		System.out.println(time);
 		
 		// Timestamp: 1970-01-01 00:00:00를 기준으로 해서 1/1000초(milli-second)마다
-		// 1식 증가하는 정수(long 타입)를 기반으로 날짜와 시간 정보를 저장하는 클래스(타입).
+		// 1씩 증가하는 정수(long 타입)를 기반으로 날짜와 시간 정보를 저장하는 클래스(타입).
 		
 		// LocalDateTime --> Timestamp 변환
 		Timestamp ts = Timestamp.valueOf(now); // now가 LocalDateTime 타입

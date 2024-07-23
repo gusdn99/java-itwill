@@ -106,6 +106,5 @@ public class MethodMain07 {
 //		}
 //
 //		return result;
-		
-	
+			
 }

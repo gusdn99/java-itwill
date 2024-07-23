@@ -160,7 +160,7 @@ public class AppMain08 {
 			english = Integer.parseInt(textEnglish.getText());
 			math = Integer.parseInt(textMath.getText());
 		} catch (NumberFormatException e) {
-			// TODO 메시지 다이얼로그 띄우기
+			// 메시지 다이얼로그 띄우기
 			JOptionPane.showMessageDialog(frame, "국어, 영어, 수학 점수는 정수로 입력...", "입력 오류", JOptionPane.ERROR_MESSAGE);
 			return;
 		}

@@ -20,8 +20,6 @@ import com.itwill.ver05.controller.ContactDaoImpl;
 import com.itwill.ver05.model.Contact;
 import com.itwill.ver05.view.ContactCreateFrame.CreateNotify;
 import com.itwill.ver05.view.ContactUpdateFrame.UpdateNotify;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
 public class ContactMain05 implements CreateNotify, UpdateNotify {
 
@@ -132,7 +130,7 @@ public class ContactMain05 implements CreateNotify, UpdateNotify {
 				resetTable(); // 테이블 새로 그리기
 				JOptionPane.showMessageDialog(frame, "삭제 성공");
 			} else {
-				// TODO 삭제 실패 알림 메시지
+				// 삭제 실패 알림 메시지
 			}
 		}
 	}
@@ -186,7 +184,7 @@ public class ContactMain05 implements CreateNotify, UpdateNotify {
 
 		// 사용자에게 알림
 		JOptionPane.showMessageDialog(frame, "새 연락처 저장 성공!");
-
+		
 	}
-
+	
 }

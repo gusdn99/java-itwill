@@ -16,7 +16,6 @@ public class InheritanceMain02 {
 		System.out.println(person3.getName() + " : " + person3.getCompany());
 		System.out.println("-----------------------------------------------");
 		
-		
 	}
 
 }

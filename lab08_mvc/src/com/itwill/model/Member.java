@@ -34,5 +34,4 @@ public class Member {
 		return "Member(id = " + id + ", password = " + password + ")";
 	}
 	
-
 }

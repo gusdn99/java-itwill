@@ -12,7 +12,7 @@ public class LoopMain10 {
 			System.out.println(x);
 			x--;
 		}
-		System.out.println("==> end while 1");
+		System.out.println("==> end while 1"); // 이게 출력됨.
 		
 		// do { ... } while (조건식);
 		// do-while 반복문은 블록을 먼저 한 번은  실행하고,
@@ -25,7 +25,6 @@ public class LoopMain10 {
 			x--;
 		} while (x < 0); // 세미콜론 필수. 중괄호로 끝나는 거 아님.
 		System.out.println("==> end do-while 2");
-		
 		
 	}
 

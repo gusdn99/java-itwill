@@ -55,8 +55,4 @@ public class Contact implements Serializable {
 		return "Contact (id=" + id + ", name=" + name + ", phone=" + phone + ", email=" + email + ")";
 	}
 	
-	
-	
-	
-
 }

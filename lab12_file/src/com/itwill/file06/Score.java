@@ -44,6 +44,4 @@ public class Score implements Serializable {
 		return "Score [java=" + java + ", web=" + web + ", spring=" + spring + "]";
 	}
 	
-	
-
 }

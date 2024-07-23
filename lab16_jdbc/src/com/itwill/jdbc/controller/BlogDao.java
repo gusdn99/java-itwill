@@ -260,7 +260,7 @@ public class BlogDao {
 		return result;
 	}
 	
-	 // 아이디(PK)로 검색하기:
+	// 아이디(PK)로 검색하기:
     private static final String SQL_SELECT_BY_ID = String.format(
             "select * from %s where %s = ?", 
             TBL_BLOGS, COL_ID);
@@ -324,6 +324,5 @@ public class BlogDao {
         
         return result;
     }
-	
-	
+    
 }

@@ -32,8 +32,7 @@ public class LoopMain02 {
 			System.out.print(n + " ");
 		}
 		System.out.println();
-		
-		
+				
 	}
 
 }

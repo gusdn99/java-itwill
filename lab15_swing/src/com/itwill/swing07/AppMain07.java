@@ -122,7 +122,7 @@ public class AppMain07 implements Notifiable {
 		btnCustomDlg.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 내가 만든 다이얼로그 보여주기
+				// 내가 만든 다이얼로그 보여주기
 				MyDialog.showMyDialog(frame);
 				
 			}
@@ -135,7 +135,7 @@ public class AppMain07 implements Notifiable {
 		btnMyFrame.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO JFrame을 상속받는 객체 보여주기
+				// JFrame을 상속받는 객체 보여주기
 				MyFrame.showMyFrame(frame, AppMain07.this);
 				// -> 아규먼트 frame: MyFrame 클래스가 부모 컴포넌트(JFrame) 정보를 사용할 수 있도록.
 				// -> 아규먼트 AppMain07.this: AppMain07 타입으로 생성된 객체(의 주소). 현재 객체.

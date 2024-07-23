@@ -76,7 +76,6 @@ public class InnerMain01 {
 		NestedCls nested2 = new NestedCls(100); // EnclosingCls 안 적음.
 		nested2.info();
 		
-
 	}
 
 }

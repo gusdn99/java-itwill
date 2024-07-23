@@ -42,7 +42,6 @@ public class MapMain03 {
 			System.out.println(wordCounts2);
 		}
 		
-		
 	}
-
+	
 }

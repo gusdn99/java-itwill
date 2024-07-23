@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 import oracle.jdbc.OracleDriver;
 
-import com.itwill.jdbc.OracleJdbc;
 import static com.itwill.jdbc.OracleJdbc.*;
 
 public class JdbcMain02 {
