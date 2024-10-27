@@ -1,0 +1,110 @@
+# Created by https://www.toptal.com/developers/gitignore/api/java,windows,eclipse,intellij,visualstudiocode
+# 아래 사이트에서 수정 가능
+# https://www.toptal.com/developers/gitignore?templates=java,windows,eclipse,intellij,visualstudiocode
+
+### Eclipse - 이클립스 ###
+# 이클립스 메타데이터
+/.metadata/          
+
+# 컴파일된 클래스 파일 디렉토리
+/bin/               
+
+# 임시 파일 디렉토리와 임시 파일들
+/tmp/               
+/*.tmp              
+/*.bak              
+/*.swp              
+/*~.nib             
+
+# 이클립스 설정 파일들
+/local.properties   
+/.settings/         
+/.loadpath          
+/.recommenders/     
+/.project           
+/.classpath         
+
+# Eclipse 프로젝트 설정 파일들
+/.settings/org.eclipse.core.resources.prefs     
+/.settings/org.eclipse.jdt.core.prefs          
+
+# 외부 빌드 도구 설정
+/.externalToolBuilders/    
+
+# 실행 구성 파일
+/*.launch           
+
+# 어노테이션 처리기 설정
+/.factorypath       
+
+# 스프링 설정 관련
+/.springBeans       
+/.sts4-cache/       
+
+### IntelliJ IDEA - 인텔리제이 ###
+# IntelliJ 설정 파일들
+/.idea/            
+/.idea/misc.xml    
+/.idea/vcs.xml     
+/.idea/workspace.xml    
+/.idea/tasks.xml        
+/.idea/dictionaries/    
+
+# IntelliJ 컴파일 및 프로젝트 파일들
+/out/              
+/*.iws             
+/*.iml             
+/*.ipr             
+
+### Java - 자바 ###
+# 컴파일된 클래스 파일
+/*.class           
+
+# 로그 파일
+/*.log             
+
+# BlueJ 파일
+/*.ctxt            
+
+# 자바 패키지 파일들
+/*.jar             
+/*.war             
+/*.nar             
+/*.ear             
+/*.zip             
+/*.tar.gz          
+/*.rar             
+
+# JVM 크래시 로그
+/hs_err_pid*       
+/replay_pid*       
+
+### VS Code - VS Code ###
+# VS Code 설정 파일들
+/.vscode/          
+!/.vscode/settings.json     
+!/.vscode/tasks.json        
+!/.vscode/launch.json       
+!/.vscode/extensions.json   
+
+# VS Code 히스토리 관련
+/.history/         
+/.ionide/          
+
+### Windows - 윈도우 ###
+# 윈도우 썸네일 캐시 파일들
+/Thumbs.db         
+/Thumbs.db:encryptable
+/ehthumbs.db
+/ehthumbs_vista.db
+
+# 윈도우 시스템 파일들
+/*.stackdump       
+/[Dd]esktop.ini    
+/$RECYCLE.BIN/     
+/*.cab             
+/*.msi             
+/*.msix            
+/*.msm             
+/*.msp             
+/*.lnk
